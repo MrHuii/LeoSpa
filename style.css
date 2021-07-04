@@ -1,0 +1,787 @@
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+@media (min-width: 768px) 
+{
+	.modal-staff
+	{
+		margin:0 auto;
+	}
+	.header
+	{
+		margin:0 auto;
+	}
+	.feature
+	{
+		margin:0 auto;
+	}
+	.service
+	{
+		margin:0 auto;
+	}
+	.testimonials
+	{
+		margin:0 auto;
+	}
+	.team .bottom .staff-image
+	{
+		margin:0 auto 100px auto;
+	
+	}
+	.appointment-table .store-form #appointment-form #notes
+	{
+		width: 320px !important;
+		display: block;
+		margin: 0 auto;
+	}
+	.appointment-table .store-form #make-an-appointment
+	{
+		float:none !important;
+	}
+}
+@media (min-width: 1350px)
+{
+	.appointment-table .store-form #appointment-form #notes
+	{
+		width:100%!important;
+	}
+	.appointment-table .store-form #make-an-appointment
+	{
+		float:left !important;
+	}
+}
+*
+{
+	margin:0;
+	padding:0;
+}
+.clearfix::after
+{
+	content:'';
+	clear:both;
+	display:table;
+}
+/*Start-Header-Top*/
+header .top .header-logo
+{
+	outline:none;
+	margin-top:20px;
+}
+.brand-name 
+{
+	margin-top:10px;
+	font-size: 30px;
+	font-family: "Playfair Display";
+	color: rgb(33, 24, 51);
+	line-height: 26px;
+}
+.header .top .header-nav
+{
+	margin-top:70px;
+	list-style:none;
+	justify-content:initial;
+}
+.header .top .header-nav .nav-link
+{
+	font-size: 14px;
+	font-family: "Roboto";
+	color: rgb(38, 58, 65);
+	text-transform: uppercase;
+	line-height: 10px;
+	font-weight:bold;
+}
+.header .top .header-nav .nav-link:hover
+{
+	color:red;
+}
+/*End-Header-Top*/
+/*Start-Header-Mid*/
+.header .mid 
+{
+	margin-top:47px;
+	padding-bottom:140px
+}
+.header #left-element
+{
+	display:block;
+}
+.header #left-element
+{	
+	background-image:url("img/left-leaf.png");
+	background-repeat:no-repeat;
+	background-position:initial;
+}
+.header .mid .content-contain
+{
+	margin-top:194px;
+}
+.header .mid .content-contain .field
+{
+	font-size: 15px;
+	font-family: "Rufina";
+	color: rgb(255, 129, 126);
+	text-transform: uppercase;
+	line-height: 11px;
+}
+.header .mid .content-contain .main-title
+{
+	margin-top:43px;
+	font-size: 60px;
+	font-family: "Rufina";
+	color: rgb(30, 37, 40);
+	font-weight: bold;
+	line-height: 62px;
+}
+.header .mid .content-contain .quote
+{
+	margin-top:48px;
+	font-size: 15px;
+	font-family: "Roboto";
+	color: rgb(85, 85, 85);
+	line-height: 1.8;
+}
+.header .mid .button-contain
+{
+	margin-top:55px;
+}
+.header .mid #reserve-now
+{
+	border-radius: 5px/5px;
+	outline:none;
+	border:none;
+	width:170px;
+	height:50px;
+	background-color: rgb(255, 129, 126);
+	color:white;
+	text-transform:uppercase;
+}
+.header .mid #reserve-now:hover
+{
+	background-color:red;
+}
+.header .mid .fa-arrow-right
+{
+	font-size: 13px;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	margin-left:10px;
+}
+.header .mid #button-play
+{
+	outline:none;
+	margin-left:55px;
+	border:none;
+	background:none;
+	font-size: 15px;
+	font-family: "Roboto";
+	color: rgb(85, 85, 85);
+	line-height: 0;
+	display: flex;
+    align-items: center;
+}
+.header .mid .fa-play-circle
+{
+	font-size:44px;
+	color: rgb(255, 129, 126);
+	padding-right:15px;
+}
+.header .mid #button-play:hover
+{
+	background-color:none;
+	color:red;
+}
+.header .mid .fa-play-circle:hover
+{
+	background-color:none;
+	color:red;
+}
+.header .mid .about
+{	
+	margin-top:240px;
+	background-image:url("img/flower-element.png");
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+.header .mid .middle-logo
+{
+	display:block;
+	text-align:center;
+}
+.header .mid .start-introduce
+{
+	font-size: 20px;
+	font-family: "Roboto";
+	color: rgb(136, 136, 136);
+	text-transform: uppercase;
+	line-height: 14px;
+	text-align: center;
+}
+.header .mid .invite-user
+{
+	font-size: 42px;
+	font-family: "Myriad Pro";
+	color: rgb(30, 37, 40);
+	line-height: 39px;
+	text-align: center;
+}
+.header .mid .about .right-flower-element
+{	
+	background-image:url("img/right-flower-element.png");
+	background-repeat:no-repeat;
+	background-position:right center;
+}
+.header .mid .about .quote
+{
+	font-size: 15px;
+	font-family: "Roboto";
+	color: rgb(85, 85, 85);
+	line-height: 15px;
+	text-align: center;
+}
+.header .mid .about .contain-button
+{
+	margin-top:71px;
+}
+.header .mid .about .read-more
+{
+	font-size: 13px;
+	font-family: "Roboto";
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	line-height: 2.154;
+	background-color: rgb(255, 129, 126);
+	width: 170px;
+	height: 50px;
+	margin:0 auto;
+	display:block;
+	border-radius:25px/25px;
+}
+.header .mid .about .read-more:hover
+{
+	background-color:red;
+}
+/*End-Header*/
+/*Start-Service*/
+.service .top .content
+{
+	text-align: center;
+}
+.service .top .main-title
+{
+	margin-top:140px;
+	font-size: 42px;
+	font-family: "Rufina";
+	color: rgb(38, 58, 65);
+	font-weight: bold;
+	line-height: 0.643;
+}
+.service .top .quote
+{
+	margin-top:29px;
+	font-size: 15px;
+	font-family: "Roboto";
+	color: rgb(136, 136, 136);
+	line-height: 1.8;
+}
+/*Service-Top-End*/
+/*Service-Mid-Start*/
+.service .mid 
+{
+	padding-bottom: 140px;
+	margin-top:95px;
+}
+.service .mid .contain-modal .service-modal
+{
+	margin:0 auto;
+	width:360px;
+	height:583px;
+	border:1px solid #e3e6ea;
+	transition: all 0.3s ease-in-out;
+	margin-bottom: 20px;
+	border-radius:5px;
+}
+.service .mid .contain-modal .service-modal:hover
+{
+	box-shadow: 1px 5px 15px black;
+	transition: all 0.3s ease-in-out;
+}
+.service .mid .contain-modal .image-modal
+{
+	margin:15px;
+	text-align:center;
+}
+.service .mid .contain-modal .border-image
+{
+	border-radius:5px;
+}
+.service .mid .contain-modal .service-name
+{
+	margin-top:40px;
+	font-size: 22px;
+	font-family: "Rufina";
+	color: rgb(38, 58, 65);
+	font-weight: bold;
+	line-height: 1.227;
+	text-align: center;
+}
+.service .mid .contain-modal .quote
+{
+	font-size: 14px;
+	font-family: "Roboto";
+	color: rgb(136, 136, 136);
+	line-height: 1.929;
+	text-align: center;
+}
+.service .mid .contain-modal .read-more
+{
+	font-size: 13px;
+	font-family: "Roboto";
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	line-height: 2.154;
+	background-color:#333333c7;
+	width: 170px;
+	height: 50px;
+	margin:45px auto;
+	display:block;
+	border-radius:25px/25px;
+}
+.service .mid .contain-modal .read-more:hover
+{
+	background-color:#ff000075;
+}
+/*End-Service*/
+/*Start-Testimonials*/
+.testimonials
+{
+	background-color:#fff9f8;
+	padding-bottom:205px;
+}
+.testimonials .top .fa-quote-left
+{
+	display:block;
+	font-size:100px;
+	text-align:center;
+	margin-top:137px;
+	color:rgb(255, 129, 126);
+}
+.testimonials .top .quote
+{
+	margin-top:50px;
+	font-size: 18px;
+	font-family: "Rufina";
+	color: rgb(38, 58, 65);
+	line-height: 1.944;
+	text-align: center;
+}
+.testimonials .top .avatar
+{
+	display: block;
+    margin: 50px auto 0
+}
+.testimonials .top .owner-name
+{
+	font-size: 22px;
+	font-family: "Rufina";
+	color: rgb(38, 58, 65);
+	line-height: 1.591;
+	text-align: center;
+}
+.testimonials .top .excutive
+{
+	font-size:15px;
+	font-family: "Roboto";
+}
+/*End-Testimonials*/
+/*Start-Team*/
+.team
+{
+	margin-top:140px;
+}
+.team .top .main-title
+{
+	font-size: 42px;
+	font-family: "Rufina";
+	color: rgb(38, 58, 65);
+	font-weight: bold;
+	line-height: 0.643;
+	text-align: center;
+}
+.team .top .quote
+{
+	font-size: 15px;
+	font-family: "Roboto";
+	color: rgb(136, 136, 136);
+	line-height: 1.8;
+	text-align: center;
+}
+.team .bottom
+{
+	margin-top:95px;
+}
+.team .bottom .staff-image
+{
+	background-color: rgb(241, 241, 241);
+	position: relative;
+	width: 360px;
+	height: 434px;
+}
+.team .bottom .first-image
+{
+	background-image:url("img/staff-image-1.png");
+	background-repeat:no-repeat;
+	background-size:360px 434px;
+}
+.team .bottom .second-image
+{
+	background-image:url("img/staff-image-2.png");
+	background-repeat:no-repeat;
+	background-size:360px 434px;
+}
+.team .bottom .third-image
+{
+	background-image:url("img/staff-image-3.png");
+	background-repeat:no-repeat;
+	background-size:360px 434px;
+}
+.team .bottom .staff-information
+{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 300px;
+    height: 121px;
+    margin: 0 auto;
+    margin-top: 381px;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.team .bottom .staff-information:hover
+{
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 15px 30px 0px rgba(48, 56, 59, 0.1);
+	position: absolute;
+	width: 300px;
+	height: 171px;
+	margin-top:300px;
+	transition-duration: 0.3s;
+}
+.team .bottom .staff-name
+{
+	font-size: 22px;
+	font-family: "Rufina";
+	color: rgb(38, 58, 65);
+	font-weight: bold;
+	line-height: 1.227;
+	text-align: center;
+	margin-top:38px;
+}
+.team .bottom .staff-position
+{
+	font-size: 14px;
+	font-family: "Roboto";
+	color: rgb(119, 119, 119);
+	line-height: 1.929;
+	text-align: center;
+}
+.team .bottom .contact
+{
+	padding-bottom:50px;
+	display:none;
+	text-align:center;
+}
+.team .bottom .staff-image:hover .contact
+{
+	display:block;
+}
+.team .bottom .contact .icon-border
+{
+	padding:10px;
+	border:1px solid black;
+	border-radius:50%;
+}
+.team .bottom .contact .icon-border:first-child
+{
+	padding:10px 13px 10px 13px;
+}
+.team .bottom .contact .icon-border:hover
+{
+	background-color:#ff817e;
+	color:white;
+}
+/*End-Team*/
+/*Start-Appointment*/
+.appointment-table
+{
+	margin-top:215px;
+}
+.appointment-table .form-background
+{
+	background-color:#fff9f8;
+	position:relative;
+}
+.input-style
+{
+	font-size: 12px;
+	font-family: "Roboto";
+	color: rgb(153, 153, 153);
+	text-transform: uppercase;
+	line-height: 4.583;
+	width:320px;
+	outline:none;
+	border:none;
+	border-bottom: 1px solid rgb(153, 153, 153);
+	background:none;
+}
+.appointment-table .store-form
+{
+	text-align:center;
+	width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.appointment-table .store-form #appointment-form
+{
+	display:inline-table;
+}
+.appointment-table .store-form #appointment-form #select-service
+{
+	margin-top:37px;
+}
+.appointment-table .store-form #appointment-form #notes
+{
+	width:100%;
+	margin-top:82px;
+}
+.appointment-table .store-form #make-an-appointment
+{
+	background-color: rgb(255, 129, 126);
+    width: 200px;
+    height: 50px;
+    border-radius: 25px/25px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    line-height: 3.929;
+	float: left;
+    margin-top: 40px;
+}
+/*End-Appointment*/
+/*Start-Blog*/
+.blog
+{
+	margin-top:140px;
+}
+.blog .top .main-title
+{
+	font-size: 42px;
+	font-family: "Rufina";
+	color: rgb(38, 58, 65);
+	font-weight: bold;
+	line-height: 0.643;
+	text-align: center;
+}
+.blog .top .quote
+{
+	font-size: 15px;
+	font-family: "Roboto";
+	color: rgb(136, 136, 136);
+	line-height: 1.8;
+	text-align: center;
+	margin-top:30px;
+}
+.blog .bottom
+{
+	margin-top:95px;
+}
+.blog .bottom .contain-modal .event-modal
+{
+	margin:0 auto;
+	width:360px;
+	height:583px;
+	border:1px solid #e3e6ea;
+	transition: all 0.3s ease-in-out;
+	margin-bottom: 20px;
+	border-radius:5px;
+}
+.blog .bottom .contain-modal .event-modal .content
+{
+	padding:0 10px;
+}
+.blog .bottom .contain-modal .event-modal:hover
+{
+	box-shadow: 1px 5px 15px black;
+	transition: all 0.3s ease-in-out;
+}
+.blog .bottom .contain-modal .image-event
+{
+	margin:15px;
+	text-align:center;
+}
+.blog .bottom .contain-modal .border-image
+{
+	border-radius:5px;
+}
+.blog .bottom .contain-modal .meta
+{
+	font-size: 12px;
+	font-family: "Roboto";
+	color: rgb(136, 136, 136);
+	text-transform: uppercase;
+	line-height: 2.5;
+	text-align:center;
+}
+.blog .bottom .contain-modal .event-name
+{
+	font-size: 22px;
+	font-family: "Rufina";
+	color: rgb(48, 56, 59);
+	font-weight: bold;
+	line-height: 1.455;
+	text-align: center;
+}
+.blog .bottom .contain-modal .quote
+{
+	font-size: 14px;
+	font-family: "Roboto";
+	color: rgb(136, 136, 136);
+	line-height: 1.929;
+	text-align: center;
+}
+.blog .bottom .contain-modal .read-more
+{
+	font-size: 13px;
+	font-family: "Roboto";
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	line-height: 2.154;
+	background-color:#333333c7;
+	width: 170px;
+	height: 50px;
+	margin:45px auto;
+	display:block;
+	border-radius:25px/25px;
+}
+.blog .bottom .contain-modal .read-more:hover
+{
+	background-color:#ff000075;
+}
+/*End-Blog*/
+/*Start-Getintouch*/
+.get-in-touch
+{
+	margin-top:140px;
+}
+.get-in-touch .top .main-title
+{
+	font-size: 42px;
+	font-family: "Rufina";
+	color: rgb(38, 58, 65);
+	font-weight: bold;
+	line-height: 0.643;
+	text-align: center;
+}
+.get-in-touch .top .quote
+{
+	font-size: 15px;
+	font-family: "Roboto";
+	color: rgb(136, 136, 136);
+	line-height: 1.8;
+	text-align: center;
+}
+.get-in-touch .bottom
+{
+	margin-top: 95px;
+	padding-bottom: 140px;
+}
+.get-in-touch .bottom .row .contact-information .visit-information
+{
+	margin:25px 0 25px 0;
+}
+.get-in-touch .bottom .icon-border
+{
+	width: 50px;
+	height: 50px;
+	border-radius:50%;
+	background-color:#ff817e;
+	color:white;
+	display: block;
+}
+.get-in-touch .bottom .company-information
+{
+	font-size: 14px;
+	font-family: "Roboto";
+	color: rgb(136, 136, 136);
+	text-transform: uppercase;
+	line-height: 1.929;
+}
+.get-in-touch .bottom .center-class
+{
+	display: inline-block;
+    margin-top: 34%;
+    margin-left: 34%;
+    font-size: 17px;
+}
+.get-in-touch .bottom .contact-form #customer-name, #customer-email, #customer-comment
+{
+	margin: 10px 0 10px 0;
+	width: 100%;
+	height: 50px;
+	border: 1px solid lightgray;
+	outline: lightgray;
+	font-size: 12px;
+	font-family: "Roboto";
+	color: rgb(153, 153, 153);
+	text-transform: uppercase;
+	line-height: 2.25;
+	text-align: left;
+}
+.get-in-touch .bottom .contact-form #customer-comment
+{
+height: 110px!important;
+}
+.get-in-touch .bottom .contact-form #button-submit-contact-form
+{
+	background-color: rgb(255, 129, 126);
+	width: 170px;
+	height: 50px;
+	border: none;
+	border-radius: 25px/25px;
+	font-size: 13px;
+	font-family: "Roboto";
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	line-height: 2.077;
+	text-align: center;
+	display: inherit;
+	margin: 0 auto;
+}
+/*End-Getintouch*/
+/*Start-Footer*/
+footer
+{
+	background-color: #fff9f8;
+}
+footer .top
+{
+	text-align: center;
+}
+/*End-Footer*/
